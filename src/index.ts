@@ -2,7 +2,7 @@ import imageScanner,{getImageQrData} from "./image";
 import videoScanner,{videoCancel} from "./video";
 
 
-export default {
+export {
     videoCancel,
     videoScanner,
     imageScanner,
